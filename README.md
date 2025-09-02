@@ -1,12 +1,91 @@
-# React + Vite
+🌍 Earthquake Visualizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+
+📌 Overview
+
+The Earthquake Visualizer is a React-based web application that fetches real-time earthquake data from the USGS Earthquake API
+.
+It provides an interactive map, charts, filters, and live earthquake feed to help users visualize seismic activity around the world.
+
+🚀 Features
+
+✅ Interactive map with earthquake markers (clickable for details)
+✅ Real-time data from USGS GeoJSON API
+✅ Filters by magnitude & timeframe
+✅ Charts for data insights (magnitude distribution, frequency, etc.)
+✅ Responsive UI with Tailwind CSS
+✅ Dark / light inspired styling with a modern header & footer
+
+
+## 🖼️ Screenshots  
+
+### 🌍 Map View  
+![Map View](public/screenshots/map-view.png)  
+
+### 🎛️ Graph View 
+![Graph View](public/screenshots/graph.png) 
+
+
+
+🛠️ Tech Stack
+
+⚛️ React (Vite) – Frontend
+
+🎨 Tailwind CSS – Styling
+
+🗺️ Leaflet.js – Maps
+
+📊 Recharts – Charts & graphs
+
+🌍 USGS API – Live earthquake data
+
+⚡ Installation & Setup
+
+Clone the repo
+
+git clone 
+cd earthquake-visualizer
+
+
+Install dependencies
+
+-->npm install
+-->Run the project
+-->npm run dev
+
+
+Open in browser → 
+
+📂 Project Structure
+earthquake-visualizer/
+│── public/          
+│── src/
+│   ├── components/
+│   │   ├── MapView.jsx
+│   │   ├── EarthquakeList.jsx
+│   │   ├── Filters.jsx
+│   │   ├── ChartsPanel.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   ├── main.jsx
+│── package.json
+│── README.md
+
+🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to open a PR or raise an issue.
+
+👨‍💻 Author
+
+Prasad Babu Pulavarthi
+📧 Email: pkrupavara@gmail.com
+
+
+✨ If you like this project, don’t forget to star ⭐ the repo!
